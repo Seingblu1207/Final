@@ -16,11 +16,11 @@
 
 
 5. Ejecutamos el comando para construir el archivo docker:
-    - "sudo docker build -t servermap:v01 ."
+    - "sudo docker build -t servidor:v1.1 ."
 
 
 6. Finalizamos ejecutando el docker:
-    - "sudo docker run -d -p 80:80 servermap:v01"
+    - "sudo docker run -d -p 80:80 servidor:v1.1"
 
 
 Y con esto ya esta listo, podemos comprobar el funcionamiento poniendo la IP publica del equipo en cualquier navegador
